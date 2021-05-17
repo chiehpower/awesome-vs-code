@@ -59,3 +59,69 @@ Of course, we can see more detail about this variable from "debug area" on the s
 ![](assets/sidebar.png)
 
 Expand the `a` and then we can see there are more detail information of variable `a`. I deeply believe that sometimes these information is quite helpful.
+
+---
+
+## Recommend my favorite entensions of VS Code
+
+
+Extension List:
+
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
+- [Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+Options:
+
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes&ssr=false#overview)
+- [Auto Comment Blocks](https://marketplace.visualstudio.com/items?itemName=kevinkyang.auto-comment-blocks)
+- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
+- [C++ Intellisense](https://marketplace.visualstudio.com/items?itemName=austin.code-gnu-global)
+- [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [Coding Tracker](https://marketplace.visualstudio.com/items?itemName=hangxingliu.vscode-coding-tracker)
+- [Compare Folders](https://marketplace.visualstudio.com/items?itemName=moshfeu.compare-folders)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+- [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+- [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
+- [Python for VSCode](https://marketplace.visualstudio.com/items?itemName=tht13.python)
+- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+- [TabNine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
+- [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+- [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
+
+---
+# Introduction of Code runner
+
+This is a handy extension of VS code. Sometimes you installed it but it cannot work normally because the tool name issue. For example, the default command name of implementing python is using **python** on command line. However, most of devices are installing both version of python, so there are python and python3 and we wanna use **python3** to run the code. Hence, here is my solution to resolve that problem. 
+
+For code runner extension,
+
+1. Turn on "code-runner.runInTerminal": true
+2. Add this code in your setting.json file.
+	```
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+	```
+
+---
+# Introduction of GitLens
+
+To be continued...
+
