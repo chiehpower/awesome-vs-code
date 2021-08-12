@@ -125,3 +125,39 @@ For code runner extension,
 
 To be continued...
 
+---
+
+# Introduction of the plug-in of Remote-SSH
+
+The icon and settings are a little bit different between Linux and Windows.
+
+Here is the **Windows** part for setup remote-ssh plug-in.
+
+1. Install the Remote-SSH plug-in in the **Extensions** area.
+
+![](./Remote-SSH/ssh-6.png)
+
+2. After we install the plugin of Remote - SSH, let’s click this icon to enter the Remote control area. ![](./Remote-SSH/ssh-1.png)
+
+3. If you install many remote control plug-in such as WSL, container, or ssh, please choose the option of SSH TARGETS. In the WIN, VS Code integrates them in one area.
+   ![](./Remote-SSH/ssh-2.png)
+   
+4. Press the buttom of “Add New” (plus symbol).
+
+5. Fill in your remote IP and your port number.
+   For example, `ssh -p (port) username@ip`
+   ![](./Remote-SSH/ssh-3.png)
+   
+6. Click this “Connect to Host in the new Window” buttom
+   ![](./Remote-SSH/ssh-4.png)
+   
+   It will create a new window for this remote use. Also, we can see the lower left (corner) that it will show the status of connection. 
+   ![](./Remote-SSH/ssh-4-1.png)
+   
+7. Please type your password
+
+8. We can see the statue that it already connected to remote server. The more information is displayed on **Output** area. You can switch to **Terminal** area. In addition, it will show the whole folders of remote side that you can easily use it. 
+
+   ![](./Remote-SSH/ssh-5.png)
+
+Done~
